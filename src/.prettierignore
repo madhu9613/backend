@@ -1,0 +1,27 @@
+# Ignore all files in the build folder
+build/
+
+# Ignore all minified files
+*.min.js
+
+# Ignore specific files
+src/ignore-this-file.js
+
+# Ignore all files in a specific folder
+logs/
+temp/
+
+# Ignore all JSON files in a specific folder
+data/*.json
+
+# Ignore node_modules
+node_modules/
+
+# Ignore lock files
+yarn.lock
+package-lock.json
+
+*env.
+.env.*
+
+/.vscode
