@@ -8,7 +8,6 @@ dotenv.config({
  
 connectDB()// Connect to the database 
  // as asyanc function return a promise so we can use then and catch
-
 .then(()=>
 {
     app.listen(process.env.PORT, () => {
